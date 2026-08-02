@@ -1,8 +1,17 @@
 aid: zama
 name: Zama
-description: 'Zama is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Zama is an open-source cryptography company building state-of-the-art Fully
+  Homomorphic Encryption (FHE) solutions for blockchain and AI. Its developer
+  surface is a suite of libraries and protocols rather than a hosted REST API:
+  TFHE-rs (a Rust implementation of TFHE), Concrete (a Python-to-FHE compiler),
+  Concrete ML (privacy-preserving machine learning), fhEVM and the Zama Protocol
+  for building confidential smart contracts and dApps on EVM-compatible chains,
+  plus TypeScript SDKs (the fhEVM Relayer SDK and React SDK). Zama publishes the
+  ERC-7984 confidential token standard, a developer hub, GitBook documentation,
+  and an active open-source GitHub organization. This profile was surfaced as a
+  portfolio company of Multicoin Capital and enriched from Zama's public
+  developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/zama/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,33 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://avatars.githubusercontent.com/u/57671822?v=4
 tags:
 - Company
 - Crypto Web3
+- Cryptography
+- Fully Homomorphic Encryption
+- FHE
+- Privacy
+- Blockchain
+- Smart Contracts
+- Machine Learning
+- Open Source
+- SDKs
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/zama-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.zama.org/security
+- type: DomainSecurity
+  url: security/zama-domain-security.yml
 - type: Website
-  url: https://zama.ai
+  url: https://www.zama.org
+- type: DeveloperPortal
+  url: https://www.zama.org/developer-hub
+- type: Documentation
+  url: https://docs.zama.org/
+- type: GettingStarted
+  url: https://docs.zama.org/protocol
+- type: APIReference
+  url: https://docs.zama.org/protocol/sdk
+- type: Blog
+  url: https://www.zama.org/blog
+- type: GitHubOrganization
+  url: https://github.com/zama-ai
+- type: Packages
+  url: packages/zama-packages.yml
+- type: SDKs
+  url: packages/zama-packages.yml
+- type: LLMsTxt
+  url: llms/zama-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

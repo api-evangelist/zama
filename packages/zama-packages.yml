@@ -1,0 +1,65 @@
+generated: '2026-07-21'
+method: searched
+source: registry search (npm, crates.io, PyPI) + https://docs.zama.org
+packages:
+  - language: typescript
+    registry: npm
+    name: "@zama-fhe/relayer-sdk"
+    version: 0.4.4
+    url: https://www.npmjs.com/package/@zama-fhe/relayer-sdk
+    repository: https://github.com/zama-ai/relayer-sdk
+    install: npm install @zama-fhe/relayer-sdk
+    description: fhEVM Relayer SDK for building confidential dApps on the Zama Protocol.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@zama-fhe/sdk"
+    version: 3.3.0
+    url: https://www.npmjs.com/package/@zama-fhe/sdk
+    repository: https://github.com/zama-ai/sdk
+    install: npm install @zama-fhe/sdk
+    description: TypeScript SDK for Zama fhEVM confidential smart contracts.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@zama-fhe/react-sdk"
+    version: 3.3.0
+    url: https://www.npmjs.com/package/@zama-fhe/react-sdk
+    repository: https://github.com/zama-ai/sdk
+    install: npm install @zama-fhe/react-sdk
+    description: React hooks for the Zama SDK.
+    official: true
+  - language: typescript
+    registry: npm
+    name: "@zama-fhe/oracle-solidity"
+    url: https://www.npmjs.com/package/@zama-fhe/oracle-solidity
+    install: npm install @zama-fhe/oracle-solidity
+    description: Oracle Solidity smart contract for public decryption on the Zama Protocol.
+    official: true
+  - language: rust
+    registry: crates.io
+    name: tfhe
+    version: 1.7.0
+    url: https://crates.io/crates/tfhe
+    repository: https://github.com/zama-ai/tfhe-rs
+    install: cargo add tfhe
+    description: TFHE-rs, a pure Rust implementation of TFHE for boolean and integer FHE.
+    official: true
+  - language: python
+    registry: pypi
+    name: concrete-python
+    version: 2.11.0
+    url: https://pypi.org/project/concrete-python/
+    repository: https://github.com/zama-ai/concrete
+    install: pip install concrete-python
+    description: Concrete, a state-of-the-art TFHE compiler that turns Python programs into their FHE equivalent.
+    official: true
+  - language: python
+    registry: pypi
+    name: concrete-ml
+    version: 1.9.0
+    url: https://pypi.org/project/concrete-ml/
+    repository: https://github.com/zama-ai/concrete-ml
+    install: pip install concrete-ml
+    description: Concrete ML, a privacy-preserving machine learning framework built on FHE.
+    official: true

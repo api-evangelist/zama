@@ -54,9 +54,10 @@ tags:
 - Privacy
 - Blockchain
 - Smart Contracts
-- Machine-Learning
-- Open-Source
+- Machine Learning
+- Open Source
 - SDK
+- Web3
 tags_raw:
 - Company
 - Crypto Web3
@@ -69,6 +70,9 @@ tags_raw:
 - Machine Learning
 - Open Source
 - SDKs
+- Machine-Learning
+- Open-Source
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
